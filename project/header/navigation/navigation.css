@@ -1,0 +1,27 @@
+
+.navigation-bar{
+  width: 40vw;
+  font-family: 'Pacifico', Courier, monospace;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+.navigation-bar_item{
+  display: flex;
+  padding-top: 0.8em;
+}
+
+a:hover{
+  transition: 0.5s;
+  color: red;
+  
+}

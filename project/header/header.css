@@ -1,0 +1,26 @@
+@import url("./navigation/navigation.css");
+@import url("./navigation/login.css");
+
+.head{
+border: 0px 0px 1px 0px solid rgb(170, 170, 171);
+  height: 5em;
+  width: 80%;
+  background-color: black;
+  box-shadow: 1px 2px 20px 7px rgb(0, 0, 0);
+}
+
+.head-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+    width: 22em;
+    height: 6.7em;
+    
+  background: url(../assets/body/logo3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
