@@ -6,7 +6,10 @@
   box-shadow: 1px 2px 20px 7px rgb(0, 0, 0);
   height: 75vh;
   width: 80%;
-  background-color: rgb(255, 255, 255);
+  background: url(../assets/body/background-main.avif);
+  background-position: center;
+  background-size: cover;
+  background-color: #ffe1b4;
   padding: 1em 0em 1em 0em;
   font-family: 'Courier New', Courier, monospace;
   
