@@ -1,8 +1,51 @@
-.main{
+@import url("../main/shop/shop__card.css");
 
+.main{
+  overflow:auto;
   border: 0px 0px 1px 0px solid rgb(170, 170, 171);
   box-shadow: 1px 2px 20px 7px rgb(0, 0, 0);
   height: 75vh;
   width: 80%;
   background-color: rgb(255, 255, 255);
+  padding: 1em 0em 1em 0em;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.welcome__image{
+  float: left;
+  height: 15em;
+  width: 20em;
+
+  margin-right: 0.8em;
+
+  border: 0.01px solid black;
+  border-radius: 1em;
+  box-shadow: -5.5px 5px 10px black;
+
+  background: url(../assets/body/welcome1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome__image2 {
+  float: right;
+  height: 15em;
+  width: 20em;
+
+  margin-left: 0.8em;
+
+  border: 0.01px solid black;
+  border-radius: 1em;
+  box-shadow: -5.5px 5px 10px black;
+
+  background: url(../assets/body/welcome2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 0em 1em 0em 1em;
 }

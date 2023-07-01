@@ -1,0 +1,59 @@
+.shop-card-place{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  align-self: center;
+
+}
+
+.card__wrapper{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  overflow: hidden;
+  border-radius: 2em;
+  flex-basis: 30%;
+  flex-grow: 0;
+  margin-bottom: 2em;
+  height: 15em;
+  width:10em;
+
+
+
+  background-position: center;
+  background-size: cover;
+  box-shadow: -1em 0.8em 2em black;
+
+}
+
+.card__header, .card__description, .card__price, .expand{
+  display: none;
+}
+
+.card__wrapper:hover{
+transition: 1s;
+box-shadow: inset 0em -4em 9em 2em black;
+padding: 0 0 1em 1em;
+}
+
+.card__wrapper:hover .card__header{
+  color: gold;
+  display: block;
+}
+.card__wrapper:hover .card__description {
+  color:gold;
+  display: block;
+}
+.card__wrapper:hover .card__price {
+  color: gold;
+  display: block;
+}
+.card__wrapper:hover .card__price {
+  color: gold;
+  display: block;
+}
+
