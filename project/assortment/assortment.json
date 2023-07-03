@@ -1,21 +1,39 @@
 {
   "cards": [
     {
-      "title": "Golden plated brooch ",
+      "title": "Golden plated brooch",
       "photo": "./project/assets/shop/broosh1.jpg",
+      "photos":[
+        "./project/assets/shop/broosh1.jpg",
+        "./project/assets/shop/broosh2.jpg",
+        "./project/assets/shop/broosh1.jpg"
+      ],
       "description": "hallmarked Kollmar and Jordan.",
+      "detail_description": "hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.",
       "price": "5"
     },
     {
       "title": "Название товара 2",
       "photo": "./project/assets/shop/broosh2.jpg",
+      "photos": [
+              "./project/assets/shop/broosh1.jpg",
+              "./project/assets/shop/broosh2.jpg",
+              "./project/assets/shop/broosh1.jpg"
+            ],
       "description": "Описание товара 2",
+      "detail_description": "hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.",
       "price": "Цена товара 2"
     },
     {
       "title": "Название товара 3",
       "photo": "./project/assets/shop/broosh3.jpg",
+      "photos": [
+              "./project/assets/shop/broosh1.jpg",
+              "./project/assets/shop/broosh2.jpg",
+              "./project/assets/shop/broosh1.jpg"
+            ],
       "description": "Описание товара 3",
+      "detail_description": "hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.hallmarked Kollmar and Jordan.",
       "price": "Цена товара 3"
     }
   ]

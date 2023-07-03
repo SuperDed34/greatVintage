@@ -1,4 +1,5 @@
 @import url("../main/shop/shop__card.css");
+@import url("../main/shop/big__card.css");
 
 .main{
   overflow:auto;

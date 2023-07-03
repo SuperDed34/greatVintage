@@ -1,0 +1,95 @@
+.big-card__wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.big-card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  height: 80%;
+  width: 60%;
+  background-color: antiquewhite;
+  margin: auto auto;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.big-card__close {
+  align-self: flex-end;
+  border: 1px solid black;
+  text-align: center;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
+}
+
+.big-card__header {
+  text-align: center;
+  font-size: 2em;
+}
+
+.big-card__slider {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: space-around;
+  width: 100%;
+  height: 80%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.big-card__slider::-webkit-scrollbar {
+  display: none;
+  width: 50%;
+  height: 100%;
+}
+
+.photo {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  /* Добавляем z-index для перекрытия слайдов */
+
+  /* Добавленные стили */
+  border-radius: 50%;
+}
+
+.slider-button.prev {
+  left: 10px;
+}
+
+.slider-button.next {
+  right: 10px;
+}
+
